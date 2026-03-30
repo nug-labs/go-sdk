@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "description": "Canonical strain key normalization shipped to all NugLabs SDKs. Apply steps in order after trim and optional lowercase.",
+  "trim": true,
+  "lowercase": true,
+  "steps": [
+    {
+      "id": "strip_hash_chars",
+      "pattern": "#",
+      "replace": ""
+    },
+    {
+      "id": "collapse_whitespace",
+      "pattern": "\\s+",
+      "replace": ""
+    },
+    {
+      "id": "strip_non_word_joiners",
+      "pattern": "[\\u200B-\\u200D\\uFEFF]",
+      "replace": ""
+    }
+  ]
+}
