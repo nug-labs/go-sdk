@@ -1,4 +1,4 @@
-module github.com/nuglabs/pokedex/app/sdk/go
+module github.com/nug-labs/go-sdk
 
 go 1.22
 
