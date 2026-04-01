@@ -1,4 +1,3 @@
-wasm/*.wasm
 .DS_Store
 coverage.out
 *.test
